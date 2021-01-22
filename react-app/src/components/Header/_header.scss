@@ -1,0 +1,45 @@
+.navbar {
+    width: 100%;
+    background-color: $background-color;
+    height: 4em;
+
+    .navbar-brand {
+        padding: 0.5em;
+
+        .logo {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            // border-radius: 100%;
+            background-color: $accent-color;
+        }
+
+        .title {
+            display: inline-block;
+            margin-left: 7px;
+        }
+    }
+
+    .container {
+        @include flex-row-end;
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $font-color;
+                    padding: 0.5em 1em;
+                    border-radius: 0.4em;
+                    font-weight: 200;
+
+                    &:hover,
+                    &:active {
+                        color: $accent-color;
+                    }
+                }
+                .nav-active {
+                    font-weight: 350;
+                }
+            }
+        }
+    }
+}
