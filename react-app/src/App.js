@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
 import Header from "./components/Header/Header"
-import About from './pages/About'
+import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 
 
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/resume">
-          <About />
+          <Resume />
         </Route>
       </Switch>
       <Switch>

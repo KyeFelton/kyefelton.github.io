@@ -1,8 +1,38 @@
-$background-color: #ffffff;
-$background-color2: #303030;
-$font-color: #303030;
-$font-color2: #ffffff;
-$border-color: rgba(0,0,0,0.125);
-$border-color2: rgba(255,255,255,0.125);
-$accent-color: rgb(15,79,251);
-$link-color: #18bfef;
+// Duration.
+// $duration: (
+//     menu:					0.35s,
+//     transition:				0.2s
+// );
+
+// Font.
+$font: (
+    family:					('Raleway', Helvetica, sans-serif),
+    family-heading:			('Poppins', 'Raleway', Helvetica, sans-serif),
+    weight:					300,
+    weight-bold:			600,
+    weight-heading:			200,
+    weight-heading-bold:	700,
+    kern-heading:			0.1em
+);
+
+@function _font($keys...) {
+    @return val($font, $keys...);
+}
+
+// Palette.
+$palette: (
+    bg-light: #FFFFFF,
+    bg-mid: #EEEEEE,
+    bg-dark: #303030,
+    bg-transparent: rgba(0,0,0,0),
+    fg-light: #ffffff,
+    fg-mid: #505050,
+    fg-dark: #303030,
+    border-dark: rgba(0, 0, 0, 0.125),
+    border-light: rgba(255, 255, 255, 0.125),
+    accent: rgb(15, 79, 251),
+);
+
+@function _palette($keys...) {
+    @return val($palette, $keys...);
+}

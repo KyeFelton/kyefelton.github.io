@@ -1,22 +1,52 @@
+#header {
+    background-color: _palette(bg-transparent);
+}
+
+.light {
+    background-color: _palette(bg-light);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
 .navbar {
+    position: fixed;
+    top: 0;
     width: 100%;
-    background-color: $background-color;
-    height: 4em;
+    height: 10vh;
+    padding: 2em;
+    transition: background-color 400ms;
+
 
     .navbar-brand {
         padding: 0.5em;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
 
         .logo {
             display: inline-block;
-            width: 15px;
-            height: 15px;
-            // border-radius: 100%;
-            background-color: $accent-color;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+            }
         }
 
-        .title {
+        .title-container {
             display: inline-block;
-            margin-left: 7px;
+            margin-left: 15px;
+            color: _palette(fg-dark);
+
+            .title {
+                font-family: _font(family-heading);
+            }
+            .sub-title {
+                font-size: 0.7em;
+                font-weight: 100;
+            }
         }
     }
 
@@ -26,18 +56,19 @@
         .navbar-nav {
             .nav-item {
                 .nav-link {
-                    color: $font-color;
+                    color: _palette(fg-mid);
                     padding: 0.5em 1em;
                     border-radius: 0.4em;
                     font-weight: 200;
 
                     &:hover,
                     &:active {
-                        color: $accent-color;
+                        color: _palette(accent);
                     }
                 }
                 .nav-active {
-                    font-weight: 350;
+                    color: _palette(fg-dark);
+                    font-weight: 250;
                 }
             }
         }

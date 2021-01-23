@@ -1,28 +1,41 @@
-import React from "react"
+import React, { useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 
+import logo from "../../images/me.jpg"
+
 function Header() {
+
+    const [navbar,setNavbar] = useState(false) 
+    
+    const changeBackground = () => {
+        if (window.scrollY >= 5) {
+            setNavbar(true)
+        }
+        else {
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
         <header id="header">
-            <Navbar>
+            <Navbar className={ navbar ? "light" : ""}>
                 <Navbar.Brand>
-                    <span className="logo"></span>
-                    <span className="title"><strong>Kye Felton</strong> | Software Engineer</span>
+                    <div className="logo"><img src={logo} alt="" /></div>
+                    <div className="title-container">
+                        <div className="title">Kye Felton</div>
+                        <div className="sub-title">Software Engineer</div>
+                    </div>
                 </Navbar.Brand>
                 <Container>
                     <Nav>
                         <Nav.Item>
-                            <NavLink exact to="/resume" className="nav-link" activeClassName="nav-active">About me</NavLink>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <NavLink to="/resume/experience" className="nav-link" activeClassName="nav-active">Experience</NavLink>
+                            <NavLink exact to="/resume" className="nav-link" activeClassName="nav-active">Resume</NavLink>
                         </Nav.Item>
                         <Nav.Item>
                             <NavLink to="/resume/projects" className="nav-link" activeClassName="nav-active">Projects</NavLink>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <NavLink to="/resume/strengths" className="nav-link" activeClassName="nav-active">Strengths</NavLink>
                         </Nav.Item>
                         <Nav.Item>
                             <NavLink to="/resume/contact" className="nav-link" activeClassName="nav-active">Contact</NavLink>

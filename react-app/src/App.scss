@@ -1,5 +1,13 @@
+body {
+    margin: 0;
+    font-family: _font(family)
+}
+
 // Custom SASS imports
-@import 'base/mixins';
-@import 'base/vars';
-@import 'components/Header/header';
+@import "base/functions";
+@import "base/mixins";
+@import "base/vars";
+@import "components/Banner/banner";
+@import "components/Header/header";
+@import "components/Spotlight/spotlight";
 
