@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
+import { NavHashLink as Link } from "react-router-hash-link"
 
 import logo from "../../images/me.jpg"
 
@@ -19,6 +19,7 @@ function Header() {
 
     window.addEventListener('scroll', changeBackground)
 
+
     return (
         <header id="header">
             <Navbar className={ navbar ? "light" : ""}>
@@ -32,13 +33,19 @@ function Header() {
                 <Container>
                     <Nav>
                         <Nav.Item>
-                            <NavLink exact to="/resume" className="nav-link" activeClassName="nav-active">Resume</NavLink>
+                            <Link smooth to="#home" className="nav-link" activeClassName="nav-active">Home</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <NavLink to="/resume/projects" className="nav-link" activeClassName="nav-active">Projects</NavLink>
+                            <Link smooth to="#bio" className="nav-link" activeClassName="nav-active">Bio</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <NavLink to="/resume/contact" className="nav-link" activeClassName="nav-active">Contact</NavLink>
+                            <Link smooth to="#projects" className="nav-link" activeClassName="nav-active">Projects</Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Link smooth to="#experience" className="nav-link" activeClassName="nav-active">Experience</Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Link smooth to="#contact" className="nav-link" activeClassName="nav-active">Contact</Link>
                         </Nav.Item>
                     </Nav>
                 </Container>

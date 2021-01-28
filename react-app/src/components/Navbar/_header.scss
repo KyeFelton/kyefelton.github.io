@@ -1,5 +1,6 @@
 #header {
     background-color: _palette(bg-transparent);
+    z-index: 100;
 }
 
 .light {
@@ -67,7 +68,7 @@
                     }
                 }
                 .nav-active {
-                    color: _palette(fg-dark);
+                    color: _palette(accent);
                     font-weight: 250;
                 }
             }
