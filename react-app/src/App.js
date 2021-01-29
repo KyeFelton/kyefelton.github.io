@@ -1,41 +1,19 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
-import Header from './components/Header/Header'
-import Home from './pages/Home'
-import Bio from './pages/Bio'
-import Projects from './pages/Projects'
-import Experience from './pages/Experience'
-import Contact from './pages/Contact'
-
+import Header from './components/Header'
+import Home from './components/Home'
+import Bio from './components/Bio'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
 
 function App() {
 
+
   return (
-    // <Router>
-    //   <Header />
-    //     <Switch>
-    //       <Route exact path="#home">
-    //         <Cover />
-    //       </Route>
-    //     </Switch>
-    //     <Switch>
-    //       <Route path="#bio">
-    //         <Projects />
-    //       </Route>
-    //     </Switch>
-    //     <Switch>
-    //       <Route path="/resume/">
-    //         <Projects />
-    //       </Route>
-    //     </Switch>
-    //     <Switch>
-    //       <Route path="/resume/projects">
-    //         <Projects />
-    //       </Route>
-    //     </Switch>
-    // </Router>
+
     <Router>
 
       <Switch>

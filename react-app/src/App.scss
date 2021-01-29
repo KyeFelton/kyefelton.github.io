@@ -4,10 +4,10 @@ body {
 }
 
 // Custom SASS imports
-@import "base/functions";
-@import "base/mixins";
-@import "base/vars";
-@import "components/Banner/banner";
-@import "components/Header/header";
-@import "components/Spotlight/spotlight";
+// @import "/styles/**/*";
+@import "styles/base/functions";
+@import "styles/base/mixins";
+@import "styles/base/vars";
+@import "styles/components/banner";
+@import "styles/components/navbar";
 

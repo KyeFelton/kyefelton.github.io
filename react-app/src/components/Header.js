@@ -2,14 +2,14 @@ import React, { useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
 import { NavHashLink as Link } from "react-router-hash-link"
 
-import logo from "../../images/me.jpg"
+import logo from "../images/me.jpg"
 
 function Header() {
 
-    const [navbar,setNavbar] = useState(false) 
+    const [navbar,setNavbar] = useState(true) 
     
     const changeBackground = () => {
-        if (window.scrollY >= 5) {
+        if (window.scrollY < 2) {
             setNavbar(true)
         }
         else {
@@ -22,7 +22,7 @@ function Header() {
 
     return (
         <header id="header">
-            <Navbar className={ navbar ? "light" : ""}>
+            <Navbar className={ navbar ? "" : "navbar-alt"}>
                 <Navbar.Brand>
                     <div className="logo"><img src={logo} alt="" /></div>
                     <div className="title-container">

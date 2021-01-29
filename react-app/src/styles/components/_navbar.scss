@@ -1,21 +1,12 @@
-#header {
-    background-color: _palette(bg-transparent);
-    z-index: 100;
-}
-
-.light {
-    background-color: _palette(bg-light);
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 40px 0 rgba(0, 0, 0, 0.19);
-}
-
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10vh;
+    height: 5.9em;
+    z-index: 100;
     padding: 2em;
-    transition: background-color 400ms;
-
+    background-color: _palette(bg-transparent);
+    transition: background-color 400ms, height 400ms;
 
     .navbar-brand {
         padding: 0.5em;
@@ -74,4 +65,10 @@
             }
         }
     }
+}
+
+.navbar-alt {
+    background-color: _palette(bg-light);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 40px 0 rgba(0, 0, 0, 0.19);
+    height: 4.2em;
 }
