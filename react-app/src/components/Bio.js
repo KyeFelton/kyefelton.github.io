@@ -1,4 +1,8 @@
 import React from "react"
+import { Container, Row, Col } from "react-bootstrap"
+
+import image1 from "../images/image1.jpg"
+import image2 from "../images/image2.jpg"
 
 const education = [
     {
@@ -15,9 +19,30 @@ const education = [
 
 const Bio = () => {
     return (
-        <div id="bio">
-            Bio
+        <div className="white">
+            <Container className="spotlight-container" id="bio">
+
+                <Row className="spotlight">
+                    <Col className="caption">
+                        <p>Here is some text</p>
+                    </Col>
+                    <Col>
+                        <img src={image1} alt="" />
+                    </Col>
+                </Row>
+
+                <Row className="spotlight">
+                    <Col className="caption">
+                        <p>Here is some text</p>
+                    </Col>
+                    <Col>
+                        <img src={image2} alt="" />
+                    </Col>
+                </Row>
+
+            </Container>
         </div>
+
     )
 }
 

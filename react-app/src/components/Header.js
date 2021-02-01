@@ -2,12 +2,12 @@ import React, { useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
 import { NavHashLink as Link } from "react-router-hash-link"
 
-import logo from "../images/me.jpg"
+import logo from "../images/logo.svg"
 
 function Header() {
 
-    const [navbar,setNavbar] = useState(true) 
-    
+    const [navbar, setNavbar] = useState(true)
+
     const changeBackground = () => {
         if (window.scrollY < 2) {
             setNavbar(true)
@@ -22,15 +22,16 @@ function Header() {
 
     return (
         <header id="header">
-            <Navbar className={ navbar ? "" : "navbar-alt"}>
-                <Navbar.Brand>
-                    <div className="logo"><img src={logo} alt="" /></div>
-                    <div className="title-container">
-                        <div className="title">Kye Felton</div>
-                        <div className="sub-title">Software Engineer</div>
-                    </div>
-                </Navbar.Brand>
+            <Navbar className={navbar ? "" : "navbar-alt"}>
                 <Container>
+
+                    <Navbar.Brand>
+                        <div className="logo"><img src={logo} alt="" /></div>
+                        <div className="title-container">
+                            <div className="title">Kye Felton</div>
+                            <div className="sub-title">Software Engineer</div>
+                        </div>
+                    </Navbar.Brand>
                     <Nav>
                         <Nav.Item>
                             <Link smooth to="#home" className="nav-link" activeClassName="nav-active">Home</Link>

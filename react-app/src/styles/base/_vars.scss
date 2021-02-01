@@ -6,7 +6,7 @@
 
 // Font.
 $font: (
-    family:					('Raleway', Helvetica, sans-serif),
+    family:					('Roboto', Helvetica, sans-serif),
     family-heading:			('Poppins', 'Raleway', Helvetica, sans-serif),
     family-caption:			('Montserrat', 'Raleway', Helvetica, sans-serif),
     weight:					300,
@@ -20,8 +20,8 @@ $font: (
     @return val($font, $keys...);
 }
 
-// Palette.
-$palette: (
+// Color.
+$color: (
     bg-light: #FFFFFF,
     bg-mid: #EEEEEE,
     bg-dark: #202020,
@@ -31,9 +31,13 @@ $palette: (
     fg-dark: #202020,
     border-dark: rgba(0, 0, 0, 0.125),
     border-light: rgba(255, 255, 255, 0.125),
-    accent: rgb(15, 79, 251),
+    accent: rgb(96,174,251),
+    accent-dark: rgb(52,125,196),
+    accent-mid: rgb(96,174,251),
+    accent-light: rgb(236, 245, 255)
+    //accent: rgb(15, 79, 251),
 );
 
-@function _palette($keys...) {
-    @return val($palette, $keys...);
+@function _color($keys...) {
+    @return val($color, $keys...);
 }

@@ -3,6 +3,11 @@ body {
     font-family: _font(family)
 }
 
+svg, img {
+    width: 100%;
+    height: auto;
+}
+
 // Custom SASS imports
 // @import "/styles/**/*";
 @import "styles/base/functions";
@@ -10,4 +15,5 @@ body {
 @import "styles/base/vars";
 @import "styles/components/banner";
 @import "styles/components/navbar";
+@import "styles/components/spotlight";
 
