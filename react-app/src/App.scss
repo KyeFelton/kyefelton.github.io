@@ -3,11 +3,6 @@ body {
     font-family: _font(family)
 }
 
-svg, img {
-    width: 100%;
-    height: auto;
-}
-
 // Custom SASS imports
 // @import "/styles/**/*";
 @import "styles/base/functions";

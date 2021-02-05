@@ -6,7 +6,7 @@ function Header() {
 
     const [navbar, setNavbar] = useState(true)
 
-    const changeBackground = () => {
+    const changeStyle = () => {
         if (window.scrollY < 2) {
             setNavbar(true)
         }
@@ -15,7 +15,7 @@ function Header() {
         }
     }
 
-    window.addEventListener('scroll', changeBackground)
+    window.addEventListener('scroll', changeStyle)
 
 
     return (
