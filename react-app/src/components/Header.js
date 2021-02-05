@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
 import { NavHashLink as Link } from "react-router-hash-link"
 
-import logo from "../images/logo.svg"
-
 function Header() {
 
     const [navbar, setNavbar] = useState(true)
@@ -26,27 +24,20 @@ function Header() {
                 <Container>
 
                     <Navbar.Brand>
-                        <div className="logo"><img src={logo} alt="" /></div>
-                        <div className="title-container">
-                            <div className="title">Kye Felton</div>
-                            <div className="sub-title">Software Engineer</div>
-                        </div>
+                        <div className="logo">Kye</div>
                     </Navbar.Brand>
                     <Nav>
                         <Nav.Item>
-                            <Link smooth to="#home" className="nav-link" activeClassName="nav-active">Home</Link>
+                            <Link smooth to="#home" className="nav-link" activeClassName="nav-active">about</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link smooth to="#bio" className="nav-link" activeClassName="nav-active">Bio</Link>
+                            <Link smooth to="#projects" className="nav-link" activeClassName="nav-active">projects</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link smooth to="#projects" className="nav-link" activeClassName="nav-active">Projects</Link>
+                            <Link smooth to="#experience" className="nav-link" activeClassName="nav-active">experience</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link smooth to="#experience" className="nav-link" activeClassName="nav-active">Experience</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Link smooth to="#contact" className="nav-link" activeClassName="nav-active">Contact</Link>
+                            <Link smooth to="#contact" className="nav-link" activeClassName="nav-active">contact</Link>
                         </Nav.Item>
                     </Nav>
                 </Container>

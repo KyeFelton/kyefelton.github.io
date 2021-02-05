@@ -7,8 +7,7 @@
 // Font.
 $font: (
     family:					('Roboto', Helvetica, sans-serif),
-    family-heading:			('Poppins', 'Raleway', Helvetica, sans-serif),
-    family-caption:			('Montserrat', 'Raleway', Helvetica, sans-serif),
+    family-heading:			('Lato', 'Roboto', Helvetica, sans-serif),
     weight:					300,
     weight-bold:			600,
     weight-heading:			200,
@@ -23,7 +22,7 @@ $font: (
 // Color.
 $color: (
     bg-light: #FFFFFF,
-    bg-mid: #EEEEEE,
+    bg-mid: #BBBBBB,
     bg-dark: #202020,
     bg-transparent: rgba(0,0,0,0),
     fg-light: #ffffff,
@@ -31,10 +30,9 @@ $color: (
     fg-dark: #202020,
     border-dark: rgba(0, 0, 0, 0.125),
     border-light: rgba(255, 255, 255, 0.125),
-    accent: rgb(96,174,251),
-    accent-dark: rgb(52,125,196),
-    accent-mid: rgb(96,174,251),
-    accent-light: rgb(236, 245, 255)
+    accent-blue: #3073ce,
+    accent-cyan: #60ddfb,
+    accent-green: #50a757
     //accent: rgb(15, 79, 251),
 );
 
