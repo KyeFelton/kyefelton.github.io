@@ -1,0 +1,38 @@
+.project-card {
+    position: relative;
+    height: 200px;
+    margin-bottom: 15px;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .card-caption {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        color: _color(fg-light);
+        background-color: _color(accent-blue-transparent);
+        padding: 2em;
+        @include flex-col-center;
+        align-items: center;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        
+        h4 {
+            padding-bottom: 0.25em;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+
+        
+    }
+}

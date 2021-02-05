@@ -22,7 +22,7 @@ const Home = () => {
     // }, [])
 
     return (
-        <div id="home">
+        <section id="home">
             <div className="banner">
                 <img className="background" src={splash} alt="" /> {/* style={{ transform: `translateY(${offsetY * 0.4}px)` }} */}
                 <Container className="banner-inner">
@@ -42,7 +42,7 @@ const Home = () => {
             <div className="collage">
                 
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,3 +1,9 @@
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @mixin flex-row-between {
   display: flex;
   flex-direction: row;
@@ -15,7 +21,6 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-
 
   @mixin flex-row-end {
     display: flex;
