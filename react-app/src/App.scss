@@ -8,8 +8,9 @@ body {
 @import "styles/base/functions";
 @import "styles/base/mixins";
 @import "styles/base/vars";
+@import "styles/base/global";
 @import "styles/components/banner";
 @import "styles/components/card";
 @import "styles/components/navbar";
-@import "styles/components/spotlight";
+@import "styles/components/highlight";
 

@@ -28,9 +28,9 @@ const Home = () => {
                 <Container className="banner-inner">
                     <Row>
                         <Col md className="banner-caption"> {/* style={{ filter: `blur(${offsetY / 100}px)` }} */}
-                            <div className="title">Hi, I'm Kye</div>
-                            <div className="sub-title">A graduate in software engineering</div>
-                            <div className="description">My main areas of expertise are web development and technical consulting. I spend my days researching, designing, protoyping and coding.</div>
+                            <h2>Hi, I'm Kye</h2>
+                            <h3>A graduate in software engineering</h3>
+                            <p>My main areas of expertise are web development and technical consulting. I spend my days researching, designing, protoyping and coding.</p>
                         </Col>
                         <Col md>
                             <img src={zoom} alt="" />

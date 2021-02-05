@@ -1,0 +1,14 @@
+.highlight {
+    position: relative;
+    margin-bottom: 2em;
+
+    .highlight-col {
+        @include flex-col-center;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
