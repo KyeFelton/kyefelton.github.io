@@ -1,6 +1,16 @@
 body {
     margin: 0;
-    font-family: _font(family)
+    font-family: _font(family);
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 // Custom SASS imports
@@ -9,6 +19,7 @@ body {
 @import "styles/base/mixins";
 @import "styles/base/vars";
 @import "styles/base/global";
+@import "styles/components/background";
 @import "styles/components/banner";
 @import "styles/components/card";
 @import "styles/components/navbar";

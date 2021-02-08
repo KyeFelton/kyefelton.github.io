@@ -1,16 +1,6 @@
 .banner {
-    position: relative;
-    height: 800px;
     @include flex-row-center;
-
-    .background {
-        position: absolute;
-        top: 0;
-        right: 0;
-        max-height: 100%;
-        max-width: 70%;
-    }
-
+    min-height: 60vh;
 
     // @include media-breakpoint-up(sm) { 
 
@@ -22,17 +12,12 @@
     
 
     .banner-inner {
-        position: absolute;
-        top: 250px;
-        height: auto;
+        padding-top: 250px;
+        margin-bottom: 1em;
 
         img {
             width: 100%;
             height: auto;
-        }
-
-        .banner-caption {
-            margin-bottom: 1em;
         }
     }
 }

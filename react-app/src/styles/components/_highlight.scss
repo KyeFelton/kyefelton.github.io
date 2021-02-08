@@ -4,10 +4,21 @@
 
     .highlight-col {
         @include flex-col-center;
+        padding-right: 30px;
+        padding-left: 30px;
         
         img {
             width: 100%;
             height: auto;
+            max-height: 300px;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        h3 {
+            font-size: 1.2em;
         }
 
     }

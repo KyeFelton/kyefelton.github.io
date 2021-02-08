@@ -9,6 +9,8 @@ import symptomImage from "../images/symptom_tracker.jpg"
 import quarantinerImage from "../images/quarantinder.jpg"
 import speechcraftImage from "../images/speechcraft.jpg"
 
+import splash from "../images/splash3.svg"
+
 const Projects = () => {
 
     const currentProjectData = [
@@ -52,7 +54,10 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <Container>
+            {/* <div className="background">
+                <img className="splash top right" src={splash} alt="" />
+            </div> */}
+            <Container className="mb-5 pb-5">
             <h2>Projects</h2>
             <h3>Current</h3>
 

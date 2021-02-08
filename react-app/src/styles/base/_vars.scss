@@ -27,7 +27,7 @@ $color: (
     bg-transparent: rgba(0,0,0,0),
     fg-light: #ffffff,
     fg-mid: #505050,
-    fg-dark: #202020,
+    fg-dark: #333333,
     border-dark: rgba(0, 0, 0, 0.125),
     border-light: rgba(255, 255, 255, 0.125),
     accent-blue: #3073ce,
@@ -40,3 +40,17 @@ $color: (
 @function _color($keys...) {
     @return val($color, $keys...);
 }
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@function _grid($keys...) {
+    @return val($grid-breakpoints, $keys...);
+}
+

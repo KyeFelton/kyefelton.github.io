@@ -13,6 +13,8 @@ function App() {
 
   return (
 
+    //to do - remove bootstrap dependency
+
     <Router>
 
       <Switch>
@@ -24,8 +26,8 @@ function App() {
 
       <Header />
       <Home />
-      <Projects />
       <Experience />
+      <Projects />
       <Contact />
 
     </Router>
