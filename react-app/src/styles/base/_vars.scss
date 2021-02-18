@@ -6,13 +6,8 @@
 
 // Font.
 $font: (
-    family:					('Roboto', Helvetica, sans-serif),
-    family-heading:			('Lato', 'Roboto', Helvetica, sans-serif),
-    weight:					300,
-    weight-bold:			600,
-    weight-heading:			200,
-    weight-heading-bold:	700,
-    kern-heading:			0.1em
+    family-light:			('Roboto', Helvetica, sans-serif),
+    family-bold:			('Lato', Helvetica, sans-serif),
 );
 
 @function _font($keys...) {
