@@ -8,7 +8,7 @@ const Infocus = () => {
         <section id="infocus">
             <Container className="project-page">
                 <div className="project-title">
-                    <h5>Completed</h5>
+                    <h5>Completed <span>&#8226;</span> 2020</h5>
                     <h2>IN FOCUS Symptom Tracker</h2>
                     <h4>A website for recording and monitoring symptoms of CIPN</h4>
                 </div>
@@ -18,7 +18,10 @@ const Infocus = () => {
                 <div className="project-description">
 
                 
-                <p>Chemotherapy-induced peripheral neuropathy (CIPN) is a medical condition resulting as a side effect of exposure to the chemotherapy treatment that is common to treat various forms of cancer. The condition affects nerves, leading to pain, weakness of muscles and numbness or loss of senses of touch. Unfortunately as of yet, there is no treatment of the condition itself, however, it is possible to help reduce the impact symptoms have on patients lives if those symptoms are properly identified and tracked. The overall purpose of the project was to create a platform which enables patients undergoing chemotherapy to track CIPN symptoms and visualise them over time while allowing the sharing of data with their doctor and researchers.</p>
+                <p>Chemotherapy-induced peripheral neuropathy (CIPN) is a medical condition caused from the exposure to common chemotherapies used to treat various forms of cancer. The condition affects nerves, leading to pain, weakness of muscles and numbness or loss of senses of touch.
+                    
+                For my capstone project, I was assigned to a team of six students 
+                    The purpose of our project was to create a platform where patients undergoing chemotherapy can record, monitor and visualise their CIPN symptoms over time, and share this data with participating doctors and researchers for analysis.</p>
 
                 <p>This project has been undertaken on behalf of the Brain and Mind Centre at the University of Sydney - researchers at the centre are already researching and helping CIPN patients. At present, tracking symptoms is a paper based process - patients are required to fill out a multitude of paper questionnaires each with a different format. Furthermore, keeping track of data gathered in this way is cumbersome, and the patient has little ability to see the changes in their own symptoms. This project has focused on the following to improve this process:</p>
                 <ul>
