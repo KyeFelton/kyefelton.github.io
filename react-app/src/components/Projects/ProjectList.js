@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Row } from "react-bootstrap"
 
-import ProjectCard from "./ProjectCard2"
+import ProjectCard from "./ProjectTile"
 
 import azgaarImage from "../images/azgaar.svg"
 import thesisImage from "../images/thesis.svg"
@@ -9,8 +9,6 @@ import symptomImage from "../images/infocus.svg"
 import infocusImage from "../images/infocus_sample.png"
 import quarantinerImage from "../images/quarantinder.svg"
 import speechcraftImage from "../images/speechcraft.svg"
-
-import splash from "../images/splash3.svg"
 
 const Projects = () => {
 
@@ -72,9 +70,6 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            {/* <div className="background">
-                <img className="splash top right" src={splash} alt="" />
-            </div> */}
             <Container className="mb-5 pb-5">
                 {projects}
             </Container>

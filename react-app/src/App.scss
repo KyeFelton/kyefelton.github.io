@@ -19,9 +19,7 @@ button, input[type="submit"], input[type="reset"] {
 @import "styles/base/mixins";
 @import "styles/base/vars";
 @import "styles/base/global";
-@import "styles/components/background";
-@import "styles/components/banner";
-@import "styles/components/card";
-@import "styles/components/navbar";
-@import "styles/components/highlight";
+@import "styles/components/header";
+@import "styles/components/home";
+@import "styles/components/projects";
 

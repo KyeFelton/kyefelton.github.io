@@ -1,0 +1,24 @@
+.intro {
+    padding-top: 5.9em;
+    min-height: 100vh;
+    @include flex-col-center;
+
+
+    .intro-inner {
+        max-width: 800px;
+    }
+}
+
+.btn-special {
+    background-color: transparent;
+    color: _color(fg-dark);
+    border: 2px solid _color(fg-dark);
+    border-radius: 25px;
+    transition: background-color 0.5≈s, color 0.5s;
+
+    &:hover {
+        background-color: _color(fg-dark);
+        border: 2px solid _color(fg-dark);
+        color: _color(fg-light);
+    }
+}

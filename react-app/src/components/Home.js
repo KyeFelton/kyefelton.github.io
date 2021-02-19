@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Button } from "react-bootstrap"
 import Typewriter from "typewriter-effect"
 
 import splash from "../images/splash1b.svg"
@@ -23,23 +23,23 @@ const Home = () => {
 
     return (
         <section id="home">
-            <div className="background">
-                <img className="splash top right" src={splash} alt="" /> {/* style={{ transform: `translateY(${offsetY * 0.4}px)` }} */}
-            </div>
-            <div className="banner">
-                <Container className="banner-inner">
-                    <Row>
-                        <Col xl className="banner-caption"> {/* style={{ filter: `blur(${offsetY / 100}px)` }} */}
+            <div className="intro">
+                <Container className="intro-inner">
                             <h1><Typewriter onInit={(typewriter) => { typewriter.typeString("Hi, I'm Kye.").start() }} /></h1>
-                            <h3>A software engineer</h3>
-                            <p className="mt-1 mb-5">My main areas of expertise are web development and technical consulting. I spend my days researching, designing, protoyping and coding.</p>
-                            <p className="mb-5">Note: This website is a work in progress. You may notice a few odd things (e.g. inconsistent spacing, contact page is missing).</p>
-                        </Col>
-                        <Col xl>
-                            <img src={zoom} alt="" />
-                        </Col>
+                            <h3 className="mb-3">A software engineer.</h3>
+                            <p className="mb-3">I'm a student based in Sydney with hands-on experience in web development and technical consulting. I enjoy building applications that are both fun and practical. You'll find me spending my days researching frameworks, designing websites, and of course, coding. Some of the tools I've used include ReactJS, Django, Spring and Bootstrap with SASS.</p>
+                         
+                            <Row className="mb-5">
+                                
+                                <Col className="">
+                                <Button className="btn-special">View my resume</Button>
+                                </Col>
+                                
+                            </Row>
+                            <Row className="row-center mb-3">
+                            <img className="image-fit" src={zoom} alt="" />
+                            </Row>
 
-                    </Row>
                 </Container>
             </div>
             <div className="collage">

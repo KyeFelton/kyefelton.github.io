@@ -32,3 +32,13 @@ h5 {
 p {
     color: _color(fg-dark);
 }
+
+.image-fit {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.row-center {
+    @include flex-row-center;
+}

@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import { Container } from "react-bootstrap"
-
-import SideNav from "./SideNav"
-import TopNav from "./TopNav"
+import { NavHashLink as Link } from "react-router-hash-link"
 
 function Header() {
 
@@ -23,8 +21,11 @@ function Header() {
             <div className={hasScrolled ? "navbar" : "navbar navbar-alt"}>
                 <Container>
                     <div className="logo">Kye</div>
-                    <TopNav />
-                    <SideNav />
+                    <div id="nav" className="top-nav">
+                        <Link smooth to="#home" className="nav-link" activeClassName="nav-active">About</Link>
+                        <Link smooth to="#projects" className="nav-link" activeClassName="nav-active">Projects</Link>
+                        <a href="https://www.linkedin.com/in/kye-felton/" className="nav-link" activeClassName="nav-active">Contact</a>
+                    </div>
                 </Container>
             </div>
         </header>
