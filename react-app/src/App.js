@@ -2,9 +2,8 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
-import Header from './components/Header'
 import Home from './components/Home'
-import Projects from './components/Projects'
+import Infocus from './components/Projects/Infocus'
 
 function App() {
 
@@ -14,15 +13,8 @@ function App() {
     //to do - remove bootstrap dependency
 
     <Router>
-
-      <Switch>
-        <Route exact path="/resume/home" component={Home} />
-        <Route exact path="/resume/projects" component={Projects} />
-      </Switch>
-
-      <Header />
-      <Home />
-      <Projects />
+      <Route exact path="/resume/infocus" component={Infocus} />
+      <Route exact path="/resume/home" component={Home} />
     </Router>
   );
 }

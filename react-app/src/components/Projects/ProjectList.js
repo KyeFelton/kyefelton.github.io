@@ -1,14 +1,13 @@
 import React from "react"
 import { Container, Row } from "react-bootstrap"
 
-import ProjectCard from "./ProjectTile"
+import ProjectTile from "./ProjectTile"
 
-import azgaarImage from "../images/azgaar.svg"
-import thesisImage from "../images/thesis.svg"
-import symptomImage from "../images/infocus.svg"
-import infocusImage from "../images/infocus_sample.png"
-import quarantinerImage from "../images/quarantinder.svg"
-import speechcraftImage from "../images/speechcraft.svg"
+import azgaarImage from "../../images/azgaar.svg"
+import thesisImage from "../../images/thesis.svg"
+import symptomImage from "../../images/infocus.svg"
+import quarantinerImage from "../../images/quarantinder.svg"
+import speechcraftImage from "../../images/speechcraft.svg"
 
 const Projects = () => {
 
@@ -36,7 +35,6 @@ const Projects = () => {
         {
             key: 3,
             image: symptomImage,
-            backImage: infocusImage,
             category: "Website",
             name: "IN FOCUS Symptom Tracker",
             description: "A website patients can use to track their symptoms for CIPN.",
@@ -66,7 +64,7 @@ const Projects = () => {
         }
     ]
 
-    const projects = projectData.map(project => <ProjectCard image={project.image} backImage={project.backImage} name={project.name} category={project.category} description={project.description} color1={project.color1} color2={project.color2} color3={project.color3}/>)
+    const projects = projectData.map(project => <ProjectTile image={project.image} name={project.name} category={project.category} description={project.description} color1={project.color1} color2={project.color2} color3={project.color3}/>)
 
     return (
         <section id="projects">

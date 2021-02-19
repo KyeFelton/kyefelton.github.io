@@ -1,49 +1,5 @@
-
-.project-card {
-    position: relative;
-    height: 200px;
-    margin-bottom: 15px;
-
-    .focus-image {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 15px;
-        object-fit: cover;
-    }
-
-    .card-caption {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 15px;
-        color: _color(fg-light);
-        background-color: _color(accent-blue-transparent);
-        padding: 2em;
-        @include flex-col-center;
-        align-items: center;
-        text-align: center;
-        opacity: 0;
-        transition: 0.5s;
-        
-        h4 {
-            padding-bottom: 0.25em;
-        }
-
-        p {
-            color: _color(fg-light)
-        }
-
-        &:hover {
-            opacity: 1;
-        }
-
-        
-    }
-}
-
-.page {
-    height: 90vh;
+.project-tile-wrapper {
+    height: 75vh;
 }
 
 .project-tile {
@@ -80,34 +36,27 @@
             font-weight: 100;
         }
     }
+}
 
-    .tile-back {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: _color(bg-light);
-        border-radius: 25px;
-        text-align: center;
+.project-page {
+    padding: 3em;
+
+    .project-title {
+        margin-bottom: 3em;
 
         h4 {
+            padding-left: 0.25em;
             font-weight: 300;
         }
-
+    
         h5 {
+            padding-left: 0.25em;
             font-weight: 100;
         }
-
-        img {
-            width: 100%;
-            height: auto;
-        }    
     }
-}
 
-.react-card-flip {
-    height: 100%;
-}
-
-.react-card-front, .react-card-back {
-    @include flex-col-center;
+    .project-image {
+        @include flex-row-center;
+        margin-bottom: 3em;
+    }
 }

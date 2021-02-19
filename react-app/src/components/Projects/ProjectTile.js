@@ -1,7 +1,8 @@
-import React, { useState } from "react"
-import { Container, Col, Row } from "react-bootstrap"
+import React from "react"
+import { Container } from "react-bootstrap"
+import { NavLink } from "react-router-dom"
 
-const ProjectCard2 = (props) => {
+const ProjectTile = (props) => {
 
     const style = {
         background: "linear-gradient(" + props.color1 + "," + props.color2 + ")",
@@ -9,8 +10,8 @@ const ProjectCard2 = (props) => {
     }
 
     return (
-        <Container className="page">
-            <a href="#">
+        <Container className="project-tile-wrapper">
+            <NavLink to="/resume/infocus">
                 <div className="project-tile" style={style}>
                     <img src={props.image} className="focus-image" alt="" />
                     <div className="tile-caption">
@@ -18,10 +19,10 @@ const ProjectCard2 = (props) => {
                         <h4><strong>{props.name}</strong></h4>
                     </div>
                 </div>
-            </a>
+            </NavLink>
         </Container>
 
     )
 }
 
-export default ProjectCard2
+export default ProjectTile
