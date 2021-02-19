@@ -40,6 +40,7 @@
 
 .project-page {
     padding: 3em;
+    min-height: 100vh;
 
     .project-title {
         margin-bottom: 3em;
@@ -57,6 +58,10 @@
 
     .project-image {
         @include flex-row-center;
+        margin-bottom: 3em;
+    }
+
+    .project-description {
         margin-bottom: 3em;
     }
 }

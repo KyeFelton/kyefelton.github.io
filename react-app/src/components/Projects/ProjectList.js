@@ -17,7 +17,7 @@ const Projects = () => {
             image: azgaarImage,
             name: "Azgaar",
             category: "Website",
-            description: "A player manager website for D&D characters.",
+            link: "azgaar",
             color1: "#fed57c" ,
             color2: "#68d0d1",
             color3: "#333",
@@ -27,7 +27,7 @@ const Projects = () => {
             image: thesisImage,
             category: "Knowledge graph",
             name: "USYD Search Engine",
-            description: "More information to come...",
+            link: "search-engine",
             color1: "#7Cb1fe",
             color2: "#d16868",
             color3: "#FFF",
@@ -37,7 +37,7 @@ const Projects = () => {
             image: symptomImage,
             category: "Website",
             name: "IN FOCUS Symptom Tracker",
-            description: "A website patients can use to track their symptoms for CIPN.",
+            link: "infocus",
             color1: "#8be298",
             color2: "#EEEEEE",
             color3: "#333",
@@ -47,7 +47,7 @@ const Projects = () => {
             image: quarantinerImage,
             category: "Website",
             name: "Quarantinder",
-            description: "An online dating website for those in quarantine.",
+            link: "quarantinder",
             color1: "#f8c6ff",
             color2: "#ffeec4",
             color3: "#333",
@@ -57,14 +57,14 @@ const Projects = () => {
             image: speechcraftImage,
             category: "Education program",
             name: "Speechcraft",
-            description: "A program for beginners to practice public speaking.",
+            link: "speechcraft",
             color1: "#8294ec",
             color2: "#a38B80",
             color3: "#FFF",
         }
     ]
 
-    const projects = projectData.map(project => <ProjectTile image={project.image} name={project.name} category={project.category} description={project.description} color1={project.color1} color2={project.color2} color3={project.color3}/>)
+    const projects = projectData.map(project => <ProjectTile image={project.image} name={project.name} category={project.category} link={project.link} color1={project.color1} color2={project.color2} color3={project.color3}/>)
 
     return (
         <section id="projects">
