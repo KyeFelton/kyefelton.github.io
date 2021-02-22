@@ -42,3 +42,12 @@ p {
 .row-center {
     @include flex-row-center;
 }
+
+a {
+    color: _color(fg-dark);
+
+    &:hover {
+        text-decoration: none;
+        color: _color(accent-blue);
+    }
+}

@@ -1,10 +1,22 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
-
-import quarantinderImage from "../../images/quarantinder.png"
+import YouTube from "react-youtube"
 
 const Quarantinder = () => {
+
+    const opts = {
+        height: '390',
+        width: '640',
+        playerVars: {
+            autoplay: 0,
+        },
+    };
+
+    const _onReady = (event) => {
+        event.target.pauseVideo();
+    }
+
     return (
         <section id="quarantinder">
             <Container className="project-page">
@@ -13,15 +25,23 @@ const Quarantinder = () => {
                     <h2>Quarantinder</h2>
                     <h4>A website for couples to meet online whilst in quarantine</h4>
                 </div>
-                <div className="project-image">
-                    <img className="image-fit" src={quarantinderImage} alt="" />
+                <div className="project-video">
+                    <YouTube videoId="3bilCTwv8tc" opts={opts} onReady={_onReady} />
                 </div>
                 <div className="project-description">
-                Sorry, this page is empty at the moment. I'll be getting around to writing it soon.
+                    <p>
+                        Quarantinder is an online dating platform that allows users to match with other users on the web app and set up virtual dates. It gives users all the tools they need to meet other people online and go on dates without having to physically meet. This allows users to continue to be social and interact with others despite being in the middle of a lockdown.</p>
+                        <p>The website was the product of a major assessment for ELEC5619: Object Orientated Application Frameworks. I was allocated to a team of six whereby we had build a website with Spring. Thus Quarantinder was born. I contributed the following to the project:
+                        </p>
+                        <ul>
+                                <li>Implemented the back-end logic and front-end design for matching, including recommended match algorithms based on location and similar interests, as well as sending. receving, accepting and declining match requests. </li>
+                                <li>Implemented the back-end logic and front-end design for blocking and reporting users.</li>
+                                <li>Unit tests for the features I implemented.</li>
+                            </ul>
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume"><Button className="btn-special">Back to home</Button></NavLink>
+                    <NavLink to="/resume#quarantinder"><Button className="btn-special">Back to home</Button></NavLink>
                 </div>
 
             </Container>

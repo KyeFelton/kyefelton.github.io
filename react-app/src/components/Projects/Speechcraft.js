@@ -23,7 +23,7 @@ const Speechcraft = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume"><Button className="btn-special">Back to home</Button></NavLink>
+                    <NavLink to="/resume#speechcraft"><Button className="btn-special">Back to home</Button></NavLink>
                 </div>
 
             </Container>

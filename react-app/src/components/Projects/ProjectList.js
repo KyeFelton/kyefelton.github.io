@@ -12,14 +12,15 @@ import speechcraftImage from "../../images/speechcraft.svg"
 const Projects = () => {
 
     const projectData = [
+        
         {
             key: 1,
-            image: azgaarImage,
-            name: "Azgaar",
+            image: symptomImage,
             category: "Website",
-            link: "azgaar",
-            color1: "#fed57c" ,
-            color2: "#68d0d1",
+            name: "IN FOCUS Symptom Tracker",
+            link: "infocus",
+            color1: "#8be298",
+            color2: "#EEEEEE",
             color3: "#333",
         },
         {
@@ -34,12 +35,12 @@ const Projects = () => {
         },
         {
             key: 3,
-            image: symptomImage,
+            image: azgaarImage,
+            name: "Azgaar",
             category: "Website",
-            name: "IN FOCUS Symptom Tracker",
-            link: "infocus",
-            color1: "#8be298",
-            color2: "#EEEEEE",
+            link: "azgaar",
+            color1: "#fed57c" ,
+            color2: "#68d0d1",
             color3: "#333",
         },
         {

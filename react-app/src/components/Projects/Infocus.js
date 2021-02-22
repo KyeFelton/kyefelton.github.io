@@ -21,9 +21,9 @@ const Infocus = () => {
 
                     <p>Chemotherapy-induced peripheral neuropathy, or CIPN, is a major side effect of common chemotherapies used to treat various forms of cancer. The condition affects nerves, leading to pain, weakness of muscles and numbness or loss of senses of touch. Patients with this medical condition experience many daily difficultlies and reduced quality of life.</p>
 
-                    <p>For my capstone project, my team and I were tasked to develop a website where patients undergoing chemotherapy can record, monitor and visualise their CIPN symptoms over time, and share their data with participating doctors and researchers for analysis. The project was to undertaken on behalf of the Brain and Mind Centre at the University of Sydney and the IN FOCUS research project. </p>
+                    <p>For my capstone project, my team and I were tasked to develop a website where patients undergoing chemotherapy can record, monitor and visualise their CIPN symptoms over time, and share their data with participating doctors and researchers for analysis. The project was to undertaken on behalf of the Brain and Mind Centre at the University of Sydney and the <a href="https://www.infocusstudy.org.au/" >IN FOCUS research project</a>. </p>
 
-                    <p>Our team decided to use Django to handle the back-end logic, style the front-end with Bootstrap and custom CSS and JQuery functions, and deploy the prototype onto AWS Beanstalk. Throughout its entirety, our team actively met with the client to demonstrate the team's progress as well as discuss ideas, challenges and successes with the project. Furthermore, we implemented industry-standard practices from Agile methodologies such as XP to promote both flexibility and quality - two critical factors required to finish the project on time whilst meeting the client's standards. Some of my individual contributions to the project included:</p>
+                    <p>Our team decided to use Django to handle the back-end logic, style the front-end with Bootstrap, and deploy the prototype onto AWS Beanstalk. Throughout its entirety, our team actively met with the client to demonstrate the team's progress as well as discuss ideas, challenges and successes with the project. Furthermore, we implemented industry-standard practices from Agile methodologies such as XP to promote both flexibility and quality - two critical factors required to finish the project on time whilst meeting the client's standards. Some of my individual contributions to the project included:</p>
                     <ul>
                         <li>Implemented several front-end UI elements with Bootstrap including the log-in page, account creation page, symptom recording pages and the sidebar navigation.</li>
                         <li>Developed the back-end logic with Django for account creation, account sign-in, account settings and email communications.</li>
@@ -35,7 +35,7 @@ const Infocus = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume"><Button className="btn-special">Back to home</Button></NavLink>
+                    <NavLink to="/resume#infocus"><Button className="btn-special">Back to home</Button></NavLink>
                 </div>
 
             </Container>
