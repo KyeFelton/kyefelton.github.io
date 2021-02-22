@@ -1,9 +1,8 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
 import YouTube from "react-youtube"
 
-const Quarantinder = () => {
+const Quarantinder = (props) => {
 
     const opts = {
         height: '390',
@@ -41,7 +40,7 @@ const Quarantinder = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume#quarantinder"><Button className="btn-special">Back to home</Button></NavLink>
+                    <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                 </div>
 
             </Container>

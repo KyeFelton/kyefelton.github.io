@@ -1,10 +1,9 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
 
 import infocusImage from "../../images/infocus_sample.png"
 
-const Infocus = () => {
+const Infocus = (props) => {
     return (
         <section id="infocus">
             <Container className="project-page">
@@ -35,7 +34,7 @@ const Infocus = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume#infocus"><Button className="btn-special">Back to home</Button></NavLink>
+                    <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                 </div>
 
             </Container>

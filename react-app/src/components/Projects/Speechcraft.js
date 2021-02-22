@@ -1,10 +1,9 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
 
 import speechcraftImage from "../../images/toastmasters.png"
 
-const Speechcraft = () => {
+const Speechcraft = (props) => {
     return (
         <section id="speechcraft">
             <Container className="project-page">
@@ -23,7 +22,7 @@ const Speechcraft = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume#speechcraft"><Button className="btn-special">Back to home</Button></NavLink>
+                    <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                 </div>
 
             </Container>

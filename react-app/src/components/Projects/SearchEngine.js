@@ -1,10 +1,9 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
 
 import searchImage from "../../images/search.png"
 
-const SearchEngine = () => {
+const SearchEngine = (props) => {
     return (
         <section id="search-engine">
             <Container className="project-page">
@@ -32,7 +31,7 @@ const SearchEngine = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume#thesis"><Button className="btn-special">Back to home</Button></NavLink>
+                    <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                 </div>
 
             </Container>
