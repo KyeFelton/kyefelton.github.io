@@ -21,7 +21,7 @@ const SearchEngine = () => {
                 </div>
 
                 <div className="row-center">
-                    <NavLink to="/resume/home"><Button className="btn-special">Back to home</Button></NavLink>
+                    <NavLink to="/resume"><Button className="btn-special">Back to home</Button></NavLink>
                 </div>
 
             </Container>

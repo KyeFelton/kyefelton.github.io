@@ -27,7 +27,7 @@ const Projects = () => {
             image: thesisImage,
             category: "Knowledge graph",
             name: "USYD Search Engine",
-            link: "search-engine",
+            link: "thesis",
             color1: "#7Cb1fe",
             color2: "#d16868",
             color3: "#FFF",
