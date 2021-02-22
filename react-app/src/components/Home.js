@@ -29,7 +29,7 @@ const Home = () => {
                         <Row className="mb-5">
 
                             <Col className="">
-                                <Button className="btn-special">View my resume</Button>
+                                <Button className="btn-special" href="https://raw.githubusercontent.com/KyeFelton/resume/main/kye_felton_resume.pdf">View my resume</Button>
                             </Col>
 
                         </Row>
