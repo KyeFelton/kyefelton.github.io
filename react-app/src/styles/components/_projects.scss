@@ -59,12 +59,12 @@
 
     .project-image {
         @include flex-row-center;
-        margin-bottom: 3em;
+        @include bottom-margin-2;
     }
 
     .project-video {
         @include flex-row-center;
-        margin-bottom: 3em;
+        @include bottom-margin-2;
         position:relative;
         padding-bottom:56.25%;
         padding-top:30px;
@@ -74,7 +74,8 @@
     }
 
     .project-description {
-        margin-bottom: 3em;
+        @include bottom-margin-2;
+
     }
 }
 

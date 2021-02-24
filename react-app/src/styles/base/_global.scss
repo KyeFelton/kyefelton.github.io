@@ -51,3 +51,15 @@ a {
         color: _color(accent-blue);
     }
 }
+
+.bottom-margin-1 {
+    @include bottom-margin-1;
+}
+
+.bottom-margin-2 {
+    @include bottom-margin-2;
+}
+
+.bottom-margin-3 {
+    @include bottom-margin-3;
+}
