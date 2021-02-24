@@ -17,7 +17,6 @@ const Infocus = (props) => {
                 </div>
                 <div className="project-description">
 
-
                     <p>Chemotherapy-induced peripheral neuropathy, or CIPN, is a major side effect of common chemotherapies used to treat various forms of cancer. The condition affects nerves, leading to pain, weakness of muscles and numbness or loss of senses of touch. Patients with this medical condition experience many daily difficultlies and reduced quality of life.</p>
 
                     <p>For my capstone project, my team and I were tasked to develop a website where patients undergoing chemotherapy can record, monitor and visualise their CIPN symptoms over time, and share their data with participating doctors and researchers for analysis. The project was to undertaken on behalf of the Brain and Mind Centre at the University of Sydney and the <a href="https://www.infocusstudy.org.au/" >IN FOCUS research project</a>. </p>
