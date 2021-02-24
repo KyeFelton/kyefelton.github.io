@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.340374d9.chunk.css",
+    "main.css": "/resume/static/css/main.68c6d568.chunk.css",
     "main.js": "/resume/static/js/main.c104ac3d.chunk.js",
     "main.js.map": "/resume/static/js/main.c104ac3d.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.b32f20a0.js",
@@ -10,7 +10,7 @@
     "static/js/2.52612046.chunk.js.map": "/resume/static/js/2.52612046.chunk.js.map",
     "index.html": "/resume/index.html",
     "static/css/2.31ff0196.chunk.css.map": "/resume/static/css/2.31ff0196.chunk.css.map",
-    "static/css/main.340374d9.chunk.css.map": "/resume/static/css/main.340374d9.chunk.css.map",
+    "static/css/main.68c6d568.chunk.css.map": "/resume/static/css/main.68c6d568.chunk.css.map",
     "static/js/2.52612046.chunk.js.LICENSE.txt": "/resume/static/js/2.52612046.chunk.js.LICENSE.txt",
     "static/media/azgaar.d74ed842.svg": "/resume/static/media/azgaar.d74ed842.svg",
     "static/media/azgaar.e70e73ff.png": "/resume/static/media/azgaar.e70e73ff.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.b32f20a0.js",
     "static/css/2.31ff0196.chunk.css",
     "static/js/2.52612046.chunk.js",
-    "static/css/main.340374d9.chunk.css",
+    "static/css/main.68c6d568.chunk.css",
     "static/js/main.c104ac3d.chunk.js"
   ]
 }
