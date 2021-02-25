@@ -1,9 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
 
 import speechcraftImage from "../../images/toastmasters.png"
 
 const Speechcraft = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
+      
     return (
         <section id="speechcraft">
             <Container className="project-page">

@@ -1,9 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
 
 import infocusImage from "../../images/infocus_sample.png"
 
 const Infocus = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+    
     return (
         <section id="infocus">
             <Container className="project-page">

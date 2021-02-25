@@ -1,9 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
 
 import searchImage from "../../images/search.png"
 
 const SearchEngine = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return (
         <section id="search-engine">
             <Container className="project-page">

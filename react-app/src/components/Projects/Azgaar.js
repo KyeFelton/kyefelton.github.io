@@ -1,9 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
 
 import azgaarImage from "../../images/azgaar.png"
 
 const Azgaar = (props) => {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <section id="azgaar">
             <Container className="project-page">

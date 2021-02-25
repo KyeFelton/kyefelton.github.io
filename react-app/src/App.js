@@ -18,15 +18,12 @@ function App() {
     //to do - remove bootstrap dependency
 
     <Router>
-      <Switch>
         <Route exact path="/resume/azgaar" component={Azgaar} />
         <Route exact path="/resume/thesis" component={SearchEngine} />
         <Route exact path="/resume/infocus" component={Infocus} />
         <Route exact path="/resume/quarantinder" component={Quarantinder} />
         <Route exact path="/resume/speechcraft" component={Speechcraft} />
         <Route exact path="/resume" component={Home} />
-        <Route path="/" component={Home} />
-      </Switch>
 
     </Router>
   );
