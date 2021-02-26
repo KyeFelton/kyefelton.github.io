@@ -1,18 +1,20 @@
 import React from "react"
 import { Container, Row, Col, Button } from "react-bootstrap"
 import { Switch, Route } from "react-router-dom"
+import { motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 import Header from './Header'
 
-
 import Projects from "./Projects/ProjectList"
-
 import zoom from "../images/zoom2.svg"
 
 const Home = () => {
 
     return (
-        <>
+        <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}>
             <Switch>
                 <Route exact path="/resume/projects" components={Projects} />
             </Switch>
@@ -42,7 +44,7 @@ const Home = () => {
             </section>
 
             <Projects />
-        </>
+        </motion.div>
 
     )
 }

@@ -1,16 +1,23 @@
 import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
+import { motion } from "framer-motion"
+import { LazyLoadImage } from "react-lazy-load-image-component"
+import "react-lazy-load-image-component/src/effects/blur.css"
 
 import searchImage from "../../images/search.png"
+import searchSmallImage from "../../images/search_small.png"
 
 const SearchEngine = (props) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     return (
-        <section id="search-engine">
+        <section id="search-engine"><motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}>
             <Container className="project-page">
                 <div className="project-title">
                     <h5>In progress</h5>
@@ -18,7 +25,7 @@ const SearchEngine = (props) => {
                     <h4>Creating and testing a semantic search engine for the University of Sydney</h4>
                 </div>
                 <div className="project-image">
-                    <img className="image-fit" src={searchImage} alt="" />
+                <LazyLoadImage alt={searchSmallImage} effect="blur" className="image-fit" src={searchImage} alt="" />
                 </div>
                 <div className="project-description">
                     <p>For my honours project, I am collaborating with the University of Sydney to develop an ontology-driven, semantic search engine. The final product will be incorporated into the university's feature website. This project will involve the following:</p>
@@ -40,7 +47,7 @@ const SearchEngine = (props) => {
                 </div>
 
             </Container>
-
+        </motion.div>
         </section>
     )
 }
