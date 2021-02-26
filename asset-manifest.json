@@ -1,33 +1,36 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.cc92d5cf.chunk.css",
-    "main.js": "/resume/static/js/main.b9101e40.chunk.js",
-    "main.js.map": "/resume/static/js/main.b9101e40.chunk.js.map",
+    "main.js": "/resume/static/js/main.d2e4e8f3.chunk.js",
+    "main.js.map": "/resume/static/js/main.d2e4e8f3.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.b32f20a0.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.b32f20a0.js.map",
     "static/css/2.5f9966ea.chunk.css": "/resume/static/css/2.5f9966ea.chunk.css",
-    "static/js/2.5d1aba08.chunk.js": "/resume/static/js/2.5d1aba08.chunk.js",
-    "static/js/2.5d1aba08.chunk.js.map": "/resume/static/js/2.5d1aba08.chunk.js.map",
+    "static/js/2.b9df0f47.chunk.js": "/resume/static/js/2.b9df0f47.chunk.js",
+    "static/js/2.b9df0f47.chunk.js.map": "/resume/static/js/2.b9df0f47.chunk.js.map",
     "index.html": "/resume/index.html",
     "static/css/2.5f9966ea.chunk.css.map": "/resume/static/css/2.5f9966ea.chunk.css.map",
     "static/css/main.cc92d5cf.chunk.css.map": "/resume/static/css/main.cc92d5cf.chunk.css.map",
-    "static/js/2.5d1aba08.chunk.js.LICENSE.txt": "/resume/static/js/2.5d1aba08.chunk.js.LICENSE.txt",
+    "static/js/2.b9df0f47.chunk.js.LICENSE.txt": "/resume/static/js/2.b9df0f47.chunk.js.LICENSE.txt",
     "static/media/azgaar.d74ed842.svg": "/resume/static/media/azgaar.d74ed842.svg",
     "static/media/azgaar.e70e73ff.png": "/resume/static/media/azgaar.e70e73ff.png",
+    "static/media/azgaar_small.71c19a30.png": "/resume/static/media/azgaar_small.71c19a30.png",
     "static/media/infocus.c2fdefbe.svg": "/resume/static/media/infocus.c2fdefbe.svg",
     "static/media/infocus_sample.a2e7da40.png": "/resume/static/media/infocus_sample.a2e7da40.png",
+    "static/media/infocus_sample_small.525e3e3b.png": "/resume/static/media/infocus_sample_small.525e3e3b.png",
     "static/media/quarantinder.3076cc99.svg": "/resume/static/media/quarantinder.3076cc99.svg",
     "static/media/search.47a26b35.png": "/resume/static/media/search.47a26b35.png",
     "static/media/speechcraft.64844eae.svg": "/resume/static/media/speechcraft.64844eae.svg",
     "static/media/thesis.bb2bde4c.svg": "/resume/static/media/thesis.bb2bde4c.svg",
     "static/media/toastmasters.c20e671e.png": "/resume/static/media/toastmasters.c20e671e.png",
+    "static/media/toastmasters_small.b701788f.png": "/resume/static/media/toastmasters_small.b701788f.png",
     "static/media/zoom2.1454ce47.svg": "/resume/static/media/zoom2.1454ce47.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b32f20a0.js",
     "static/css/2.5f9966ea.chunk.css",
-    "static/js/2.5d1aba08.chunk.js",
+    "static/js/2.b9df0f47.chunk.js",
     "static/css/main.cc92d5cf.chunk.css",
-    "static/js/main.b9101e40.chunk.js"
+    "static/js/main.d2e4e8f3.chunk.js"
   ]
 }
