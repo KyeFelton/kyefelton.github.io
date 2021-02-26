@@ -8,7 +8,7 @@ const SearchEngine = (props) => {
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
-      
+
     return (
         <section id="search-engine">
             <Container className="project-page">
@@ -21,7 +21,7 @@ const SearchEngine = (props) => {
                     <img className="image-fit" src={searchImage} alt="" />
                 </div>
                 <div className="project-description">
-                    <p>For my honours project, I am partnering up with the University of Sydney to improve the university's search engine by developing and testing an ontology-driven semantic search engine. This project will involve the following:</p>
+                    <p>For my honours project, I am collaborating with the University of Sydney to develop an ontology-driven, semantic search engine. The final product will be incorporated into the university's feature website. This project will involve the following:</p>
 
                     <ul>
                         <li>A comprehensive review of the relevant literature including previous research on academic search engines</li>

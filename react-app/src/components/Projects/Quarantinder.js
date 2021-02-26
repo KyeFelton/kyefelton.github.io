@@ -34,7 +34,7 @@ const Quarantinder = (props) => {
                 <div className="project-description">
                     <p>
                         Quarantinder is an online dating platform that allows users to match with other users on the web app and set up virtual dates. It gives users all the tools they need to meet other people online and go on dates without having to physically meet. This allows users to continue to be social and interact with others despite being in the middle of a lockdown.</p>
-                        <p>The website was the product of a major assessment for ELEC5619: Object Orientated Application Frameworks. I was allocated to a team of six whereby we had build a website with Spring. Thus Quarantinder was born. I contributed the following to the project:
+                        <p>The website was the product of a major group assessment for ELEC5619: Object Orientated Application Frameworks. I was allocated to a team of six and was required to build a website with my team that utilises the Spring framework. Thus Quarantinder was born. I contributed the following to the project:
                         </p>
                         <ul>
                                 <li>Implemented the back-end logic and front-end design for matching, including recommended match algorithms based on location and similar interests, as well as sending. receving, accepting and declining match requests. </li>

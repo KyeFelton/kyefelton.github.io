@@ -21,7 +21,7 @@ const Azgaar = (props) => {
                     <img className="image-fit" src={azgaarImage} alt="" />
                 </div>
                 <div className="project-description">
-                    <p>As a fun spare time activity, I've been developing my own spin-off version of the popular role-playing game series Dungeons&amp;Dragons. To enhance the playing experience, I'm building a website that both both GMs and players can utilise. The website will include the following features:</p>
+                    <p>As a fun spare time activity, I've been developing my own spin-off version of the popular role-playing game series Dungeons&amp;Dragons. To enhance the playing experience, I'm building a website that both GMs and players can utilise. The website will include the following features:</p>
                     <ul>
                         <li>A character generation and management page for players to view and edit their character's skills, items and abilities.</li>
                         <li>A game management page for the GM to take notes, track player progress and streamline particular activities such as combat.</li>
