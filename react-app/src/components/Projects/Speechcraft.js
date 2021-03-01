@@ -5,7 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
 
 import speechcraftImage from "../../images/toastmasters.png"
-import speechcraftSmallImage from "../../images/toastmasters_small.png"
 
 const Speechcraft = (props) => {
 
@@ -26,7 +25,7 @@ const Speechcraft = (props) => {
                     <h4>A public speaking course hosted by Toastmasers</h4>
                 </div>
                 <div className="project-image">
-                    <LazyLoadImage alt={speechcraftSmallImage} effect="blur" className="image-fit" src={speechcraftImage} alt="" />
+                    <LazyLoadImage effect="blur" className="image-discrete-size" src={speechcraftImage} alt="" />
                 </div>
                 <div className="project-description">
                     <p>As Vice President of Public Relations (VPPR) for <a href="https://www.facebook.com/EttalongToastmasters">Ettalong Beach Toastmasters Club</a>, I helped the club organise a 4-week education program on public speaking. The purpose of the program was to raise awareness of toastmasters within the community and increase club membership. To achieve this goal, the program was desgined to demonstrate how Toastmasters has helped past members gain the confidence and skills to present engaging presentations, and hence encourage novice speakers to follow in their steps and sign up. Accordingly, the course was structured to allow participants to prepare a speech on their own accord, practice presenting it in front of the club, receive feedback, and then observe the techniques more experienced speakers utilise to drive rapport with their audience.</p>

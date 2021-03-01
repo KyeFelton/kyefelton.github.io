@@ -5,7 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
 
 import infocusImage from "../../images/infocus_sample.png"
-import infocusSmallImage from "../../images/infocus_sample_small.png"
 
 const Infocus = (props) => {
     useEffect(() => {
@@ -25,7 +24,7 @@ const Infocus = (props) => {
                         <h4>A website for recording and monitoring symptoms of CIPN</h4>
                     </div>
                     <div className="project-image">
-                    <LazyLoadImage alt={infocusSmallImage} effect="blur" className="image-fit" src={infocusImage} alt="" />
+                    <LazyLoadImage effect="blur" className="image-discrete-size" alt="" src={infocusImage}/>
                     </div>
                     <div className="project-description">
 

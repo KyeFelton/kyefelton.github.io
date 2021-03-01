@@ -35,7 +35,7 @@ const Home = () => {
                             </Col>
 
                         </Row>
-                        <Row className="row-center bottom-margin-2">
+                        <Row className="row-center bottom-margin-3">
                             <img className="image-fit" src={zoom} alt="" />
                         </Row>
 

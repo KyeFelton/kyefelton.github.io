@@ -35,12 +35,12 @@ function App() {
         //   :
         <Router>
           <AnimatePresence>
-            <Route exact path="/resume/azgaar" component={Azgaar} />
-            <Route exact path="/resume/thesis" component={SearchEngine} />
-            <Route exact path="/resume/infocus" component={Infocus} />
-            <Route exact path="/resume/quarantinder" component={Quarantinder} />
-            <Route exact path="/resume/speechcraft" component={Speechcraft} />
-            <Route exact path="/resume" component={Home} />
+            <Route exact path="/resume" component={Home} key="0"/>
+            <Route exact path="/resume/azgaar" component={Azgaar} key="1"/>
+            <Route exact path="/resume/thesis" component={SearchEngine} key="2"/>
+            <Route exact path="/resume/infocus" component={Infocus} key="3"/>
+            <Route exact path="/resume/quarantinder" component={Quarantinder} key="4"/>
+            <Route exact path="/resume/speechcraft" component={Speechcraft} key="5"/>
           </AnimatePresence>
         </Router>
       }

@@ -65,7 +65,7 @@ const Projects = () => {
         }
     ]
 
-    const projects = projectData.map(project => <ProjectTile image={project.image} name={project.name} category={project.category} link={project.link} color1={project.color1} color2={project.color2} color3={project.color3}/>)
+    const projects = projectData.map(project => <ProjectTile key={project.key} image={project.image} name={project.name} category={project.category} link={project.link} color1={project.color1} color2={project.color2} color3={project.color3}/>)
 
     return (
         <section id="projects">

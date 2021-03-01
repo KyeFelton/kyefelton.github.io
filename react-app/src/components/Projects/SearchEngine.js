@@ -5,7 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
 
 import searchImage from "../../images/search.png"
-import searchSmallImage from "../../images/search_small.png"
 
 const SearchEngine = (props) => {
 
@@ -25,7 +24,7 @@ const SearchEngine = (props) => {
                     <h4>Creating and testing a semantic search engine for the University of Sydney</h4>
                 </div>
                 <div className="project-image">
-                <LazyLoadImage alt={searchSmallImage} effect="blur" className="image-fit" src={searchImage} alt="" />
+                <LazyLoadImage effect="blur" className="image-discrete-size" src={searchImage} alt="" />
                 </div>
                 <div className="project-description">
                     <p>For my honours project, I am collaborating with the University of Sydney to develop an ontology-driven, semantic search engine. The final product will be incorporated into the university's feature website. This project will involve the following:</p>

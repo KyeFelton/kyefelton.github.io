@@ -5,13 +5,16 @@ import "react-lazy-load-image-component/src/effects/blur.css"
 import { motion } from "framer-motion"
 
 import azgaarImage from "../../images/azgaar.png"
-import azgaarSmallImage from "../../images/azgaar_small.png"
 
 const Azgaar = (props) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-    }, [])
+
+        return function cleanup() {
+
+        }
+    })
 
     return (
         <section id="azgaar">
@@ -26,7 +29,7 @@ const Azgaar = (props) => {
                         <h4>A website where players can create and manage their RPG characters</h4>
                     </div>
                     <div className="project-image">
-                        <LazyLoadImage alt={azgaarSmallImage} effect="blur" className="image-fit" src={azgaarImage} alt="" />
+                    <LazyLoadImage effect="blur" className="image-discrete-size" alt="" src={azgaarImage}/>
                     </div>
                     <div className="project-description">
                         <p>As a fun spare time activity, I've been developing my own spin-off version of the popular role-playing game series Dungeons&amp;Dragons. To enhance the playing experience, I'm building a website that both GMs and players can utilise. The website will include the following features:</p>

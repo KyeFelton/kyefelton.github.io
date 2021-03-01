@@ -22,9 +22,9 @@ function Header() {
                 <Container>
                     <div className="logo">Kye</div>
                     <div id="nav" className="top-nav">
-                        <Link smooth to="#home" className="nav-link" activeClassName="nav-active">About</Link>
-                        <Link smooth to="#projects" className="nav-link" activeClassName="nav-active">Projects</Link>
-                        <a href="https://www.linkedin.com/in/kye-felton/" className="nav-link" activeClassName="nav-active">Contact</a>
+                        <Link smooth to="#home" className="nav-link">About</Link>
+                        <Link smooth to="#projects" className="nav-link">Projects</Link>
+                        <a href="https://www.linkedin.com/in/kye-felton/" className="nav-link">Contact</a>
                     </div>
                 </Container>
             </div>

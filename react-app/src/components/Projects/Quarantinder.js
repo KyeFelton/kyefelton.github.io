@@ -1,8 +1,6 @@
 import React, { useEffect } from "react"
 import { Container, Button } from "react-bootstrap"
 import { motion } from "framer-motion"
-import { LazyLoadImage } from "react-lazy-load-image-component"
-import "react-lazy-load-image-component/src/effects/blur.css"
 
 import YouTube from "react-youtube"
 
