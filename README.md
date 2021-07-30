@@ -1,4 +1,4 @@
-# resume
+# Portfolio
 A website showcasing some of my work as a software engineer.
 
 Things to add:
