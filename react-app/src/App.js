@@ -35,13 +35,13 @@ function App() {
         //   :
         <Router>
           <AnimatePresence>
-            <Route exact path="/" component={Home} key="0"/>
-            <Route exact path="/portfolio" component={Home} key="1"/>
-            <Route exact path="/portfolio/azgaar" component={Azgaar} key="2"/>
-            <Route exact path="/portfolio/thesis" component={SearchEngine} key="3"/>
-            <Route exact path="/portfolio/infocus" component={Infocus} key="4"/>
-            <Route exact path="/portfolio/quarantinder" component={Quarantinder} key="5"/>
-            <Route exact path="/portfolio/speechcraft" component={Speechcraft} key="6"/>
+            <Route exact path="/portfolio" component={Home} key="0"/>
+            <Route exact path="/portfolio/azgaar" component={Azgaar} key="1"/>
+            <Route exact path="/portfolio/thesis" component={SearchEngine} key="2"/>
+            <Route exact path="/portfolio/infocus" component={Infocus} key="3"/>
+            <Route exact path="/portfolio/quarantinder" component={Quarantinder} key="4"/>
+            <Route exact path="/portfolio/speechcraft" component={Speechcraft} key="5"/>
+            <Route exact path="/" component={Home} key="6"/>
           </AnimatePresence>
         </Router>
       }
