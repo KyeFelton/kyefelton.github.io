@@ -16,7 +16,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
             <Switch>
-                <Route exact path="/resume/projects" components={Projects} />
+                <Route exact path="/projects" components={Projects} />
             </Switch>
 
             <Header />
