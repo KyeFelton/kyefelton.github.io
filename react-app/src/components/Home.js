@@ -16,7 +16,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
             <Switch>
-                <Route exact path="/projects" components={Projects} />
+                <Route exact path="/portfolio/projects" components={Projects} />
             </Switch>
 
             <Header />
@@ -33,7 +33,7 @@ const Home = () => {
                                 <Row className="">
 
                                     <Col className="">
-                                        <Button className="btn-special" href="https://raw.githubusercontent.com/KyeFelton/kyefelton.github.io/main/kye_felton_resume.pdf">View my resume</Button>
+                                        <Button className="btn-special" href="https://raw.githubusercontent.com/KyeFelton/portfolio/main/kye_felton_resume.pdf">View my resume</Button>
                                     </Col>
 
                                 </Row>

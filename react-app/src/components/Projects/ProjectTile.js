@@ -11,7 +11,7 @@ const ProjectTile = (props) => {
 
     return (
         <Container className="project-tile-wrapper" id={props.link}>
-            <NavLink to={"/" + props.link }>
+            <NavLink to={"/portfolio/" + props.link }>
                 <div className="project-tile" style={style}>
                     <img src={props.image} className="focus-image" alt="" />
                     <div className="tile-caption">
