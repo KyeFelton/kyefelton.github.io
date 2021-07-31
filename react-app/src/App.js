@@ -41,7 +41,7 @@ function App() {
             <Route exact path="/portfolio/infocus" component={Infocus} key="3"/>
             <Route exact path="/portfolio/quarantinder" component={Quarantinder} key="4"/>
             <Route exact path="/portfolio/speechcraft" component={Speechcraft} key="5"/>
-            <Route exact path="/" component={Home} key="6"/>
+            {/* <Route exact path="/" component={Home} key="6"/> */}
           </AnimatePresence>
         </Router>
       }
