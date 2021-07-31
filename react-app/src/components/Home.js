@@ -33,7 +33,7 @@ const Home = () => {
                                 <Row className="">
 
                                     <Col className="">
-                                        <Button className="btn-special" href="https://raw.githubusercontent.com/KyeFelton/resume/main/kye_felton_resume.pdf">View my resume</Button>
+                                        <Button className="btn-special" href="https://raw.githubusercontent.com/KyeFelton/kyefelton.github.io/main/kye_felton_resume.pdf">View my resume</Button>
                                     </Col>
 
                                 </Row>
