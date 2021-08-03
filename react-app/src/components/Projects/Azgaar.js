@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Container, Button } from "react-bootstrap"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
@@ -7,14 +7,6 @@ import { motion } from "framer-motion"
 import azgaarImage from "../../images/azgaar.png"
 
 const Azgaar = (props) => {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-
-        return function cleanup() {
-
-        }
-    })
 
     return (
         <section id="azgaar">
@@ -38,10 +30,8 @@ const Azgaar = (props) => {
                             <li>A game management page for the GM to take notes, track player progress and streamline particular activities such as combat.</li>
                             <li>An encyclopedia of animals, plants, locations and NPCs within the world.</li>
                         </ul>
-
                         <p>The project is currently on-going and is expected to be completed by February 2022. More details will be posted upon its completion.</p>
                     </div>
-
                     <div className="row-center">
                         <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                     </div>

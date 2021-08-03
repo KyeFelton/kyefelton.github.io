@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Container, Button } from "react-bootstrap"
 import { motion } from "framer-motion"
 import { LazyLoadImage } from "react-lazy-load-image-component"
@@ -7,11 +7,6 @@ import "react-lazy-load-image-component/src/effects/blur.css"
 import speechcraftImage from "../../images/toastmasters.png"
 
 const Speechcraft = (props) => {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
 
     return (
         <section id="speechcraft"><motion.div
@@ -32,11 +27,9 @@ const Speechcraft = (props) => {
                     <p>I contributed to the program by raising awareness of the campaign through posts on social media and the club website, creating and distributing flyers, collaborating in executive club meetings, and providing constructive feedback to participants on their presentation. As a result of the program, eight new members were inducted to the club (an incredible result for a small club of only 18 members).
                 </p>
                 </div>
-
                 <div className="row-center">
                     <Button className="btn-special" onClick={() => props.history.goBack()}>Back to home</Button>
                 </div>
-
             </Container>
         </motion.div>
         </section>

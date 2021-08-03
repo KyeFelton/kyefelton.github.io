@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Container, Button } from "react-bootstrap"
 import { motion } from "framer-motion"
 
@@ -17,10 +17,6 @@ const Quarantinder = (props) => {
     const _onReady = (event) => {
         event.target.pauseVideo();
     }
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
     return (
         <section id="quarantinder"><motion.div

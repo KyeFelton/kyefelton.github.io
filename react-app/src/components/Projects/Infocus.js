@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Container, Button } from "react-bootstrap"
 import { motion } from "framer-motion"
 import { LazyLoadImage } from "react-lazy-load-image-component"
@@ -7,9 +7,6 @@ import "react-lazy-load-image-component/src/effects/blur.css"
 import infocusImage from "../../images/infocus_sample.png"
 
 const Infocus = (props) => {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
     return (
         <section id="infocus">
