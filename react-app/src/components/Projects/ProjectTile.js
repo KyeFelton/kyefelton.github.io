@@ -21,7 +21,6 @@ const ProjectTile = (props) => {
                 </div>
             </NavLink>
         </Container>
-
     )
 }
 
